@@ -10,9 +10,9 @@
     "not_found_handling": "single-page-application",
     "html_handling": "auto-trailing-slash"
   },
+  "workers_dev": true,
   "routes": [
-    { "pattern": "anvaykosh.devamit.co.in", "custom_domain": true },
-    { "pattern": "anvaykosh.com", "custom_domain": true }
+    { "pattern": "anvaykosh.devamit.co.in", "custom_domain": true }
   ],
   "observability": {
     "logs": {

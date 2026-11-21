@@ -1,0 +1,45 @@
+# AnvayKosh (अन्वयकोश) — Sovereign Personal Technology Ecosystem
+
+> An authoritative multi-system sovereign technology fabric engineered by Amit Chakraborty (Amit Dev Labs). Unifies five production client applications, extended commerce and fleet logistics suites (Ravuno, Haulwise), hardware keystore enclaves, and non-destructive nullish coalescing under Strict Law 6 with zero advertising telemetry.
+
+## System Architect & Creator
+- Architect: Amit Chakraborty
+- Handle: @devamitch
+- Role: Creator & Chief Systems Architect
+- Organization: Amit Dev Labs (Google Play Console Developer ID: 4618297291940146992)
+- Direct Contact: amit@devamit.co.in
+- GitHub: https://github.com/devamitch
+- Telegram: https://t.me/devamitch
+- Architectural Philosophy: Offline-First Autonomy, Ephemeral Vision Processing in RAM only, Non-Destructive Provenance, Single-Purpose Craftsmanship.
+
+## Flagship Client Applications
+- Thrivefold (com.amit.thrivefold, thrivefold://): Mindful fitness, joint biomechanics & on-device pose tracking via MediaPipe with 0 bytes transmitted to cloud.
+- Neev (com.amit.neev, neev://): Private family operating system, sacred spaces, and zero-telemetry emergency radar maps with offline vector MBTiles.
+- HarmonyBloom (com.amit.harmonybloom, harmonybloom://): Mindful hormonal harmony, circadian cycle dial, and cryptographic health isolation.
+- BlinkQuest (com.amit.blinkquest, blinkquest://): Vision ergonomics and on-device 30fps Eye Aspect Ratio (EAR) blink rate tracking.
+- Setu (com.amit.setu, setu://): Sovereign offline P2P Wi-Fi Direct swarm mesh (120+ Mbps) and flagship Anvay ID hardware Keystore identity anchor.
+
+## Extended Production Products
+- Ravuno: Decentralized offline-first commerce and micro-merchant ledger enabling local P2P payments and inventory tracking with cryptographic ed25519 invoice proofs.
+- Haulwise: Autonomous offline fleet logistics and turn-by-turn dead-reckoning navigation using local vector tiles with zero third-party broker tracking.
+- Amit Intelligence Admin: Mission control administrative portal built with Next.js 16 and React 19 for monitoring AI pipelines and task queues.
+- Aura Mobile Starter: Enterprise-grade mobile architecture foundation using Expo 55, React Native, and Skia.
+- Telehealth Core Engine: HIPAA-compliant clinical consultation routing and encrypted scheduling service.
+
+## Core Platform Subsystems
+- Anvay ID: Federated 1-tap single sign-on using OAuth 2.1 authorization code with PKCE (RFC 7636/9700). URLs carry short-lived one-time codes only.
+- Anvay Vault: Shared personal repository implementing Strict Law 6 (non-destructive nullish coalescing: incoming records populate empty fields without overwriting existing data).
+- Anvay Connect: Inter-app protocol bound by Android 11+ `<queries>` and signature-level permissions on ContentProviders.
+- Anvay Sync & Local RAG: Offline-first hybrid search over local SQLite databases using FTS5 and LiteRT embeddings.
+
+## Seven Sovereign Architectural Laws
+1. Zero Deep-Link Lock Bypass: Device biometric lock must always be verified first.
+2. Standard OAuth 2.1 PKCE Only: Query strings carry short-lived codes only, never PII.
+3. Server-Enforced Cryptographic Registry: Unknown apps fail closed.
+4. Decentralized Sovereign Autonomy: Every app functions completely standalone and offline.
+5. Granular Category-Level Consent: Signing in grants zero data; apps request categories explicitly.
+6. Non-Destructive Nullish Coalescing: Provenance and user data are never blindly overwritten.
+7. Zero Secret Exposure & Local Processing: Biometrics and camera frames remain in volatile RAM only.
+
+## Full Technical Documentation
+- Technical Documentation: https://anvaykosh.devamit.co.in/llms-full.txt

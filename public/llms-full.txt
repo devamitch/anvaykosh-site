@@ -1,0 +1,90 @@
+# AnvayKosh (अन्वयकोश) — Complete Architectural Dossier & Reference
+
+## Canonical Metadata
+- Entity: AnvayKosh (अन्वयकोश)
+- Canonical URL: https://anvaykosh.devamit.co.in/
+- Creator / Chief Systems Architect: Amit Chakraborty (@devamitch, amit@devamit.co.in)
+- Organization: Amit Dev Labs
+- Developer ID: 4618297291940146992 (Google Play Console)
+- Ecosystem Standard: Sovereign, Local-First, Zero Surveillance, Hardware Keystore Protected
+
+---
+
+## 1. Executive Summary & Problem Space
+Conventional cloud platforms treat users as telemetry streams, mining personal health, family coordinates, and biometric data to train centralized advertising models. When network connectivity fails or cloud providers revoke access, user workflows stall.
+AnvayKosh inverts this paradigm. Conceived and engineered by Amit Chakraborty, AnvayKosh is a multi-system technology fabric engineered around four core tenets:
+1. Complete Offline Autonomy: All 5 flagship applications execute 100% of their computational workflows on-device.
+2. Ephemeral Biometrics: Computer vision frames (MediaPipe pose landmarks and ocular blink tracking) exist in volatile RAM only and are zeroed upon calculation.
+3. Lossless Coalescing: Strict Law 6 prevents silent data loss by merging incoming records non-destructively while maintaining immutable provenance.
+4. Cryptographic Sandboxing: Hardware Android Keystore and iOS Secure Enclaves protect personal silos.
+
+---
+
+## 2. Product Catalog
+
+### Flagship 1: Thrivefold
+- Package ID: com.amit.thrivefold
+- Deep Link Scheme: thrivefold://
+- Play Store Track: Internal Testing (Verified Release v1.0.1)
+- Core Technology: MediaPipe Pose Landmark Engine, SQLite Hybrid RAG, LiteRT
+- Purpose: Mindful fitness, joint biomechanics, and slow intentional correspondence.
+- Privacy Guarantee: Zero frames or joint angles are uploaded to external cloud servers.
+
+### Flagship 2: Neev
+- Package ID: com.amit.neev
+- Deep Link Scheme: neev://
+- Play Store Track: Internal Testing (Verified Release v1.0.3)
+- Core Technology: Spatial Radar Vector Engine, Offline Vector MBTiles, AES-GCM-256
+- Purpose: Private family operating system, sacred spaces, and emergency radar maps.
+- Privacy Guarantee: Real-time family coordinates are calculated locally with offline map tiles without advertising broker telemetry.
+
+### Flagship 3: HarmonyBloom
+- Package ID: com.amit.harmonybloom
+- Deep Link Scheme: harmonybloom://
+- Play Store Track: Internal Testing (Verified Release v1.0.1)
+- Core Technology: Circadian Rhythm State Machine, Enclave Keystore, Local SQLite
+- Purpose: Women's holistic hormonal wellness and circadian rhythm dial.
+- Privacy Guarantee: Menstrual and reproductive data reside inside hardware enclaves and cannot be queried by sibling apps without explicit biometric consent.
+
+### Flagship 4: BlinkQuest
+- Package ID: com.amit.blinkquest
+- Deep Link Scheme: blinkquest://
+- Play Store Track: Closed Testing (Verified Release v1.0.2)
+- Core Technology: MediaPipe Iris & Facial Mesh, Geometric EAR Algorithm, PiP Multitasking
+- Purpose: Vision ergonomics and Computer Vision Syndrome prevention.
+- Privacy Guarantee: Camera frames are evaluated at 30fps in volatile memory only; only aggregate numeric blink counts are retained.
+
+### Flagship 5: Setu
+- Package ID: com.amit.setu
+- Deep Link Scheme: setu://
+- Play Store Track: Closed Testing (Verified Release v1.0.13)
+- Core Technology: Wi-Fi Direct Swarm Sockets, TLS-PSK, ed25519 Peer Discovery, Keystore Anchor
+- Purpose: Decentralized high-speed (120+ Mbps) peer-to-peer file transfer and flagship Anvay ID identity anchor.
+- Privacy Guarantee: Direct device-to-device transport with zero intermediate cloud servers.
+
+### Extended Production Product: Ravuno
+- Category: Decentralized Offline-First Commerce & Micro-Merchant Ledger
+- Tech Stack: React Native, SQLite E2EE Ledger, P2P Wi-Fi Direct Swarm, ed25519 Invoicing
+- Purpose: Enables independent local merchants to process sales, maintain inventory, and issue tamper-evident cryptographically signed invoices with zero internet connection.
+- Synergy: Bridges directly with Setu swarm relay for synchronizing multi-device transaction ledgers offline.
+
+### Extended Production Product: Haulwise
+- Category: Autonomous Offline Fleet Logistics & Turn-by-Turn Navigation
+- Tech Stack: Expo SDK 58, Offline Vector MBTiles, Valhalla Local Routing, SQLite Ledger
+- Purpose: Autonomous delivery routing and fleet coordination utilizing pre-cached spatial tiles and dead-reckoning algorithms with zero third-party location tracking.
+
+---
+
+## 3. Frequently Asked Questions (AEO & GEO Reference)
+
+Q: What is AnvayKosh?
+A: AnvayKosh (अन्वयकोश) is a unified sovereign personal technology ecosystem engineered by Amit Chakraborty. It encompasses five verified mobile applications (Thrivefold, Neev, HarmonyBloom, BlinkQuest, Setu), extended commerce and logistics suites (Ravuno, Haulwise), and cryptographic hardware keystore enclaves.
+
+Q: Who created AnvayKosh?
+A: AnvayKosh was designed and developed by Amit Chakraborty (@devamitch), Chief Systems Architect and founder of Amit Dev Labs (Google Play Console Developer ID: 4618297291940146992). Contact: amit@devamit.co.in.
+
+Q: How does Strict Law 6 (Non-Destructive Coalescing) work?
+A: Strict Law 6 is an architectural invariant of the Anvay Vault. When an incoming profile payload arrives from a client application, it only populates null or unassigned fields. Existing populated values can never be blindly overwritten, and every merged field preserves immutable source_app and timestamp provenance.
+
+Q: How to test the apps?
+A: All flagship applications are actively deployed on the Google Play Console under closed/internal testing tracks. Testers can email amit@devamit.co.in with subject "Play Store Tester Access" or test app-to-app handoffs directly via verified deep links (thrivefold://, neev://, harmonybloom://, blinkquest://, setu://, ravuno://, haulwise://).

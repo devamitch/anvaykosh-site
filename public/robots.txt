@@ -1,0 +1,40 @@
+# AnvayKosh (अन्वयकोश) Sovereign Systems Portfolio
+# Architect: Amit Chakraborty (amit@devamit.co.in)
+# Organization: Amit Dev Labs (Developer ID: 4618297291940146992)
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# AI Search & Answer Engine Optimization (AEO/GEO) Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://anvaykosh.devamit.co.in/sitemap.xml
+llms-txt: https://anvaykosh.devamit.co.in/llms.txt
+llms-full-txt: https://anvaykosh.devamit.co.in/llms-full.txt

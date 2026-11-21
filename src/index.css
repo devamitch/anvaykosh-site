@@ -1,0 +1,215 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #faf7f2;
+  --color-paper-subtle: #f5efeb;
+  --color-surface-white: #ffffff;
+  --color-surface-stone: #eae4dc;
+  --color-surface-bone: #cdc7b7;
+
+  --color-ink-deep: #191918;
+  --color-ink-secondary: #5c584e;
+  --color-ink-muted: #7a766a;
+
+  --color-terracotta: #d77259;
+  --color-terracotta-hover: #c25f47;
+  --color-terracotta-subtle: rgba(215, 114, 89, 0.12);
+  --color-terracotta-border: rgba(215, 114, 89, 0.25);
+
+  --color-sage: #7d9c7b;
+  --color-sage-hover: #6b8b69;
+  --color-sage-strong: #4e7a4c;
+  --color-sage-subtle: rgba(125, 156, 123, 0.14);
+  --color-sage-border: rgba(125, 156, 123, 0.3);
+
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro', 'Plus Jakarta Sans', system-ui,
+    sans-serif;
+  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    --bg: #faf7f2;
+    --paper: #faf7f2;
+    --surface: #ffffff;
+    --surface2: #eae4dc;
+    --surface3: #cdc7b7;
+    --surface-glass: rgba(250, 247, 242, 0.85);
+
+    --ink: #191918;
+    --ink-secondary: #5c584e;
+    --ink-muted: #7a766a;
+
+    --terracotta: #d77259;
+    --terracotta-hover: #c25f47;
+    --terracotta-subtle: rgba(215, 114, 89, 0.12);
+
+    --sage: #7d9c7b;
+    --sage-hover: #6b8b69;
+    --sage-strong: #4e7a4c;
+    --sage-subtle: rgba(125, 156, 123, 0.14);
+
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans:
+      -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro', 'Plus Jakarta Sans', system-ui,
+      sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #faf7f2;
+    color: #191918;
+  }
+
+  body {
+    background-color: #faf7f2;
+    color: #191918;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-serif,
+  .font-editorial {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: #d77259;
+    color: #ffffff;
+  }
+}
+
+/* Apple Minimalist Glass Capsule Dock - Pure Tonal, Zero Harsh Borders, Zero Heavy Shadows */
+.apple-liquid-dock {
+  background: rgba(250, 247, 242, 0.88);
+  backdrop-filter: blur(30px) saturate(1.3);
+  -webkit-backdrop-filter: blur(30px) saturate(1.3);
+  border: none;
+  box-shadow: none;
+}
+
+.apple-liquid-glass {
+  background: #ffffff;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: none;
+  box-shadow: none;
+}
+
+/* Pure AnvayKosh Squircle System - Modern Flat Tonal Luxury, Zero Borders, Zero Drop Shadows */
+.squircle-card {
+  border-radius: clamp(24px, 2.8vw, 36px);
+  background: #ffffff;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  transition:
+    transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 220ms ease;
+}
+
+.squircle-card:hover {
+  transform: translateY(-2px);
+  background: #ffffff;
+}
+
+.squircle-card-tinted {
+  border-radius: clamp(24px, 2.8vw, 36px);
+  background: #f4efea;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  transition:
+    transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 220ms ease;
+}
+
+.squircle-card-dark {
+  border-radius: clamp(24px, 2.8vw, 36px);
+  background: #2c2925;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  transition:
+    transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 220ms ease;
+}
+
+.squircle-card-dark:hover {
+  transform: translateY(-2px);
+  background: #35312c;
+}
+
+.squircle-card-dark {
+  border-radius: clamp(24px, 2.8vw, 36px);
+  background: #2c2925;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  transition:
+    transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 220ms ease;
+}
+
+.squircle-card-dark:hover {
+  transform: translateY(-2px);
+  background: #35312c;
+}
+
+.squircle-button {
+  border-radius: 9999px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.squircle-button:hover {
+  transform: translateY(-1px);
+}
+
+.squircle-button:active {
+  transform: scale(0.98);
+}
+
+/* Soothing Ambient Warmth */
+.ambient-warmth {
+  background-image:
+    radial-gradient(at 15% 15%, rgba(215, 114, 89, 0.07) 0px, transparent 55%),
+    radial-gradient(at 85% 35%, rgba(125, 156, 123, 0.09) 0px, transparent 55%),
+    radial-gradient(at 50% 85%, rgba(205, 199, 183, 0.12) 0px, transparent 60%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf7f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cdc7b7;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7a766a;
+}
